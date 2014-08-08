@@ -1,0 +1,87 @@
+#!/system/bin/sh 
+
+# .::The Great::Dash-M::.
+# by myaservip
+####Thanks To :
+#Chainfire
+#JynAlek
+#Rhievaldo
+#Pikachu01
+#Lenarox's
+#TWR Team- SpaceCaker-SniperKiller-Rhedification-Vishnu PV
+#Juwe11
+#Imbawind 
+#slaid480
+#darky
+#Every Dash User
+#zeppelinrox
+################################################
+
+##Cleaner
+
+#Interval between cleaner runs,in seconds, 108000=30 hours
+RUN_EVERY=108000
+
+
+LOG_FILE=/data/mvip/cleaner.log
+LOG_FILEZ=/data/mvip/cleaner.log
+    if [ -e $LOG_FILE ]; then
+        rm $LOG_FILE;
+    fi;
+
+    if [ -e $LOG_FILEZ ]; then
+        rm $LOG_FILEZ;
+    fi;
+
+
+#running the script...
+start at:
+$( date +"%m-%d-%Y %H:%M:%S" )
+==========================" | tee -a $LOG_FILE;
+
+
+# cleaner
+busybox rm -f /data/anr/*.*
+busybox rm -f /data/cache/*.*
+busybox rm -f /data/log/*.*
+busybox rm -f /data/local/tmp/*.*
+busybox rm -f /data/mlog/*
+busybox rm -f /data/tombstones/*
+busybox rm -f /data/backup/pending/*
+busybox rm -f /data/system/dropbox/*
+chmod 700 /data/system/dropbox
+busybox rm -f /data/system/usagestats/*
+busybox chmod 700 /data/system/usagestats
+
+export sampling_rate=10000
+export up_threshold=80
+
+
+echo "memory cleaner--------[OK]" | tee -a $LOG_FILE;
+
+if [ -e /data/anr/*.* ]; then
+  echo "-anr not cleaned" | tee -a $LOG_FILE; else
+  echo "-anr cleaned" | tee -a $LOG_FILE
+fi;
+if [ -e /data/local/tmp/*.* ]; then
+  echo "-local/tmp not cleaned" | tee -a $LOG_FILE; else
+  echo "-local/tmp cleaned" | tee -a $LOG_FILE
+fi;
+if [ -e /data/cache/*.* ]; then
+  echo "-cache not cleaned" | tee -a $LOG_FILE; else
+  echo "-cache cleaned" | tee -a $LOG_FILE
+fi;
+if [ -e /data/last_log/*.* ]; then
+  echo "-log not cleaned" | tee -a $LOG_FILE; else
+  echo "-log cleaned" | tee -a $LOG_FILE
+fi;
+if [ -e /data/tombstones/*.* ]; then
+  echo "-tombstones not cleaned" | tee -a $LOG_FILE; else
+  echo "-tombstones cleaned" | tee -a $LOG_FILE
+fi;
+
+# end
+echo "==========================
+done at:
+$( date +"%m-%d-%Y %H:%M:%S" )
+ Thanks to -MVIP@XDA-" | tee -a $LOG_FILE;

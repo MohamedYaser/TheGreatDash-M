@@ -1,0 +1,41 @@
+#!/system/bin/sh 
+
+# .::The Great::Dash-M::.
+# by myaservip
+####Thanks To :
+#Chainfire
+#JynAlek
+#Rhievaldo
+#Pikachu01
+#Lenarox's
+#TWR Team- SpaceCaker-SniperKiller-Rhedification-Vishnu PV
+#Juwe11
+#Imbawind 
+#slaid480
+#darky
+#Every Dash User
+#zeppelinrox
+################################################
+
+ 
+##Battery-Callebration
+
+SLEEP=120
+if [ -e /data/.battery-calibrated ] ; then
+exit 0
+fi
+(
+while : ; do
+LEVEL=$(cat /sys/class/power_supply/battery/capacity)
+CUR=$(cat /sys/class/power_supply/battery/batt_current)
+if [ "$LEVEL" == "100" ] && [ "$CUR" == "0" ] ; then
+log -p i -t battery-calibration "*** LEVEL: $LEVEL CUR: $CUR***: calibrating..."
+rm -f /data/system/batterystats.bin
+touch /data/.battery-calibrated
+exit 0
+fi
+# log -p i -t battery-calibration "*** LEVEL: $LEVEL CUR: $CUR ***: sleeping for $SLEEP s..."
+sleep $SLEEP
+done
+) & 
+ 

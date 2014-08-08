@@ -1,0 +1,88 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: k8HV07+s++WuI8cbRC4XjNH/Aww=
+
+Name: system/etc/init.d/05Dash_cleaner
+SHA1-Digest: 79w5nOj0r97ynrywarnRHemtpIA=
+
+Name: system/etc/init.d/sysctl_tweaks
+SHA1-Digest: x+WHvMRnnq5AbXshRBwszQN4M4c=
+
+Name: system/etc/rngd/entro
+SHA1-Digest: Ys2Su3KqZu1veIq6vyXV5zgVcM8=
+
+Name: system/etc/init.d/07Dash_netwroktweeks
+SHA1-Digest: XnJyW/s5GqAoaO2pkDS3frQF7zg=
+
+Name: system/xbin/zipalign
+SHA1-Digest: 8w21tncal0lmXIBgD4DfTiYM3Ro=
+
+Name: system/etc/init.d/02Dash_batteryceleb
+SHA1-Digest: RiVzilsHm3RIAVuyjFfSgaPOTJE=
+
+Name: system/etc/init.d/06Dash_mainfree
+SHA1-Digest: 8C5YrJmqlgtmelP2NsCtMDzijn4=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: SOc1B+LXbxjqBg73zHmhlp+EJ3k=
+
+Name: system/etc/init.d/12Dash_zipaligndata
+SHA1-Digest: DCT0kNFJR70/mHzNdvgcmqVXtyw=
+
+Name: data/mvip/zipalign.log
+SHA1-Digest: GLdM8iYLe3Msdt9B4Y/zQR+ETHU=
+
+Name: system/etc/init.d/09Dash_sqlite_optimize
+SHA1-Digest: 3xOleOvlQYE/bKn+ma6OLV83P9s=
+
+Name: system/bin/undash
+SHA1-Digest: br5UWHk8AMeeAZStsR3zaMjT8wU=
+
+Name: data/mvip/zipaligndata.log
+SHA1-Digest: ElxKwmIKA+BftSa6eIVvjKZHLhc=
+
+Name: data/mvip/sqlite_optimize.log
+SHA1-Digest: QrkMyHEZdSC2HKN4JVT7umV5f0g=
+
+Name: system/lib/libjackpal-androidterm4.so
+SHA1-Digest: aF29/gwB0SoirUkppltNj4ptPcA=
+
+Name: data/mvip/cleaner.log
+SHA1-Digest: LAiZtY1kqdb14lb02GIbCmPFhtE=
+
+Name: system/bin/Dash-M
+SHA1-Digest: 9VP071L/YqVPCvqtwt5ogHlkpOA=
+
+Name: system/etc/init.d/11Dash_zipalign
+SHA1-Digest: a5ag6lZyTwjDDn41IWrJF8f3kR8=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: CSZ7Gyg6X76HeNNSMKPZaNDGFlI=
+
+Name: system/etc/init.d/10Dash_touchscreen
+SHA1-Digest: u7PUyv9328lnrR3CRySIRhvVUiU=
+
+Name: system/etc/init.d/01Dash_battery
+SHA1-Digest: YcAvmW2qw452EFbbfWP2yVYEWnE=
+
+Name: system/bin/Dash
+SHA1-Digest: Hog91lVYrHdM9b/qZ9/L7+oas+w=
+
+Name: system/etc/init.d/03Dash_boot
+SHA1-Digest: xjIcGD7epQjFEuCxNMr/4S4767c=
+
+Name: system/etc/sysctl.conf
+SHA1-Digest: wvsGj7YCSOpJUONgqdBfHaV+WoY=
+
+Name: system/etc/rngd/entropy
+SHA1-Digest: VartSBrBdWLAhQIvbnwPUOe+/zA=
+
+Name: system/app/AndroidTerm.apk
+SHA1-Digest: qu3uPJn3o+OUt/t4J9vTZ/SdzgU=
+
+Name: system/etc/init.d/08Dash_sd
+SHA1-Digest: Ad5xD8HiLBXWzVFKM81AwASfUoQ=
+
+Name: system/etc/rngd/rngd
+SHA1-Digest: rkNl3g2NIAeyk/L9Hbq6uWpcxUw=
+

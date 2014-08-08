@@ -1,0 +1,87 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: system/etc/init.d/05Dash_cleaner
+SHA1-Digest: J0iFBTK2m1dU6r7u9/QYCBHlntI=
+
+Name: system/etc/init.d/sysctl_tweaks
+SHA1-Digest: qG4zig+lb+fQCkbE8sooWOObdNI=
+
+Name: system/etc/rngd/entro
+SHA1-Digest: S9nZN0TwoPCI23F0DkM77edG5H4=
+
+Name: system/etc/init.d/07Dash_netwroktweeks
+SHA1-Digest: rnpdt/idsX5uDNwSk15LbfQDENE=
+
+Name: system/xbin/zipalign
+SHA1-Digest: pwL0NEqL/oCSjT+NiX3jh8ptQSU=
+
+Name: system/etc/init.d/02Dash_batteryceleb
+SHA1-Digest: VSwfxP+CD0hlrNP3nXctMZjsQ7s=
+
+Name: system/etc/init.d/06Dash_mainfree
+SHA1-Digest: 19O0RjvC9uL3dH4n/OTZX7WBTNM=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: mn9xBQROER/zgv0IheT89w9YR44=
+
+Name: system/etc/init.d/12Dash_zipaligndata
+SHA1-Digest: WKLY2u4HsIMSrRUyzdBxtLusXWM=
+
+Name: data/mvip/zipalign.log
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: system/etc/init.d/09Dash_sqlite_optimize
+SHA1-Digest: wVgc/sEUAXxkLQf7JkJ2BGEkNdE=
+
+Name: system/bin/undash
+SHA1-Digest: rjzuFNfwUHr4DhxpzfeP3szykAg=
+
+Name: data/mvip/zipaligndata.log
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: data/mvip/sqlite_optimize.log
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: system/lib/libjackpal-androidterm4.so
+SHA1-Digest: T/R/eYHNJd8wRgXvJRWvCZx/bz8=
+
+Name: data/mvip/cleaner.log
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: system/bin/Dash-M
+SHA1-Digest: gl1AMrvdaTqxM2RPEdbgPevpYKM=
+
+Name: system/etc/init.d/11Dash_zipalign
+SHA1-Digest: FapW1W0CLq2nc2euqSaLxT4+fHQ=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: 7LjhI2kUKoWfvQFHyInm+pcJigY=
+
+Name: system/etc/init.d/10Dash_touchscreen
+SHA1-Digest: x+ADm1eEXsR7wXq1pEPyl1RpGUk=
+
+Name: system/etc/init.d/01Dash_battery
+SHA1-Digest: IKigCKnf6Ny07jx63P0lnrZ470M=
+
+Name: system/bin/Dash
+SHA1-Digest: 4mnG6M0bLjwEvNOMNAAiIMUWmRA=
+
+Name: system/etc/init.d/03Dash_boot
+SHA1-Digest: sN86J3X/I5yN8846AcJYG6ybe4M=
+
+Name: system/etc/sysctl.conf
+SHA1-Digest: GlgvaDkbYM8O/5YJ7s2cGWugoqE=
+
+Name: system/etc/rngd/entropy
+SHA1-Digest: Ce/+dJERAfBmnaE2W7yu6f2xHvE=
+
+Name: system/app/AndroidTerm.apk
+SHA1-Digest: +QTLSoR4Z6u+If95WWzZotQPP9A=
+
+Name: system/etc/init.d/08Dash_sd
+SHA1-Digest: fKIy3brJ5BOvUJuSuFN2EfYpdR8=
+
+Name: system/etc/rngd/rngd
+SHA1-Digest: kAmoExAeu9XlslY/mqP9TBuzlZc=
+

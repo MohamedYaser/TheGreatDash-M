@@ -1,0 +1,51 @@
+#!/system/bin/sh 
+
+# .::The Great::Dash-M::.
+# by myaservip
+####Thanks To :
+#Chainfire
+#JynAlek
+#Rhievaldo
+#Pikachu01
+#Lenarox's
+#TWR Team- SpaceCaker-SniperKiller-Rhedification-Vishnu PV
+#Juwe11
+#Imbawind 
+#slaid480
+#darky
+#Every Dash User
+#zeppelinrox
+################################################
+
+ 
+##DATA ZIPALLIGNER
+ 
+#Interval between ZipAlign runs, in seconds, 86400=24 hours
+RUN_EVERY=86400
+
+LOG_FILE=/data/mvip/zipaligndata.log
+    if [ -e $LOG_FILE ]; then
+      rm $LOG_FILE;
+    fi;
+
+
+
+echo "Starting Automatic ZipAlign $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG_FILE;
+    for apk in /data/app/*.apk ; do
+  zipalign -c 4 $apk;
+  ZIPCHECK=$?;
+  if [ $ZIPCHECK -eq 1 ]; then
+    echo ZipAligning $(basename $apk)  | tee -a $LOG_FILE;
+    zipalign -f 4 $apk /cache/$(basename $apk);
+      if [ -e /cache/$(basename $apk) ]; then
+        cp -f -p /cache/$(basename $apk) $apk  | tee -a $LOG_FILE;
+        rm /cache/$(basename $apk);
+      else
+        echo ZipAligning $(basename $apk) Failed  | tee -a $LOG_FILE;
+      fi;
+  else
+    echo ZipAlign already completed on $apk  | tee -a $LOG_FILE;
+  fi;
+       done;
+
+echo "Automatic ZipAlign finished at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG_FILE;

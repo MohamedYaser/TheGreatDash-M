@@ -1,0 +1,49 @@
+#!/system/bin/sh 
+
+# .::The Great::Dash-M::.
+# by myaservip
+####Thanks To :
+#Chainfire
+#JynAlek
+#Rhievaldo
+#Pikachu01
+#Lenarox's
+#TWR Team- SpaceCaker-SniperKiller-Rhedification-Vishnu PV
+#Juwe11
+#Imbawind 
+#slaid480
+#darky
+#Every Dash User
+#zeppelinrox
+################################################
+ 
+
+# SQlite Optimize
+for r in \
+`busybox find /data -iname "*.db"`; 
+do \
+	/system/xbin/sqlite3 $r 'VACUUM;';
+	/system/xbin/sqlite3 $r 'REINDEX;';
+done;
+if [ -d "/dbdata" ]; then
+	for r in \
+	`busybox find /dbdata -iname "*.db"`; 
+	do \
+		/system/xbin/sqlite3 $r 'VACUUM;';
+		/system/xbin/sqlite3 $r 'REINDEX;';
+	done;
+fi;
+if [ -d "/datadata" ]; then
+	for r in \
+	`busybox find /datadata -iname "*.db"`; 
+	do \
+		/system/xbin/sqlite3 $r 'VACUUM;';
+		/system/xbin/sqlite3 $r 'REINDEX;';
+	done;
+fi;
+for r in \
+`busybox find /sdcard -iname "*.db"`; 
+do \
+	/system/xbin/sqlite3 $r 'VACUUM;';
+	/system/xbin/sqlite3 $r 'REINDEX;';
+done;
