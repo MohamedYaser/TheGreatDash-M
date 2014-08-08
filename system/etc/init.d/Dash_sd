@@ -1,0 +1,53 @@
+#!/system/bin/sh 
+
+# .::The Great::Dash-M::.
+# by myaservip
+####Thanks To :
+#Chainfire
+#JynAlek
+#Rhievaldo
+#Pikachu01
+#Lenarox's
+#TWR Team- SpaceCaker-SniperKiller-Rhedification-Vishnu PV
+#Juwe11
+#Imbawind 
+#slaid480
+#darky
+#Every Dash User
+#zeppelinrox
+################################################
+ 
+ 
+
+##SD TWEEKS
+
+if [ -e /sys/devices/virtual/bdi/179:0/read_ahead_kb ]; then
+    echo "4096" > /sys/devices/virtual/bdi/179:0/read_ahead_kb;
+fi;
+if [ -e /sys/devices/virtual/bdi/7:0/read_ahead_kb ]; then
+    echo "2048" > /sys/devices/virtual/bdi/7:0/read_ahead_kb;
+fi;
+if [ -e /sys/devices/virtual/bdi/7:1/read_ahead_kb ]; then
+    echo "2048" > /sys/devices/virtual/bdi/7:1/read_ahead_kb;
+fi;
+if [ -e /sys/devices/virtual/bdi/7:2/read_ahead_kb ]; then
+    echo "2048" > /sys/devices/virtual/bdi/7:2/read_ahead_kb;
+fi;
+if [ -e /sys/devices/virtual/bdi/7:3/read_ahead_kb ]; then
+    echo "2048" > /sys/devices/virtual/bdi/7:3/read_ahead_kb;
+fi;
+if [ -e /sys/devices/virtual/bdi/7:4/read_ahead_kb ]; then
+    echo "2048" > /sys/devices/virtual/bdi/7:4/read_ahead_kb;
+fi;
+if [ -e /sys/devices/virtual/bdi/7:5/read_ahead_kb ]; then
+    echo "2048" > /sys/devices/virtual/bdi/7:5/read_ahead_kb;
+fi;
+if [ -e /sys/devices/virtual/bdi/7:6/read_ahead_kb ]; then
+    echo "2048" > /sys/devices/virtual/bdi/7:6/read_ahead_kb;
+fi;
+if [ -e /sys/devices/virtual/bdi/7:7/read_ahead_kb ]; then
+    echo "2048" > /sys/devices/virtual/bdi/7:7/read_ahead_kb;
+fi;
+if [ -e /sys/devices/virtual/bdi/default/read_ahead_kb ]; then
+    echo "256" > /sys/devices/virtual/bdi/default/read_ahead_kb;
+fi;

@@ -1,0 +1,29 @@
+#!/system/bin/sh 
+
+# .::The Great::Dash-M::.
+# by myaservip
+####Thanks To :
+#Chainfire
+#JynAlek
+#Rhievaldo
+#Pikachu01
+#Lenarox's
+#TWR Team- SpaceCaker-SniperKiller-Rhedification-Vishnu PV
+#Juwe11
+#Imbawind 
+#slaid480
+#darky
+#Every Dash User
+#zeppelinrox
+################################################
+
+##MAINFREE
+
+if [ -e /sys/module/lowmemorykiller/parameters/adj ]; then
+	chown root:root /sys/module/lowmemorykiller/parameters/adj;
+	echo "0,1,3,5,7,15" > /sys/module/lowmemorykiller/parameters/adj;
+fi;
+if [ -e /sys/module/lowmemorykiller/parameters/minfree ]; then
+	chown root:root /sys/module/lowmemorykiller/parameters/minfree;
+	echo "3584,4096,6144,16896,18944,24320" > /sys/module/lowmemorykiller/parameters/minfree;
+fi; 

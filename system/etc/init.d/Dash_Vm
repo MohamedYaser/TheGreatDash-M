@@ -1,0 +1,36 @@
+#!/system/bin/sh 
+
+# .::The Great::Dash-M::.
+# by myaservip
+####Thanks To :
+#Chainfire
+#JynAlek
+#Rhievaldo
+#Pikachu01
+#Lenarox's
+#TWR Team- SpaceCaker-SniperKiller-Rhedification-Vishnu PV
+#Juwe11
+#Imbawind 
+#slaid480
+#darky
+#Every Dash User
+#zeppelinrox
+################################################
+ 
+
+# VM Tweaks
+chown root:root /proc/sys/vm;
+echo "0" > /proc/sys/vm/block_dump;
+echo "90" > /proc/sys/vm/dirty_ratio;
+echo "30" > /proc/sys/vm/dirty_background_ratio;
+echo "500" > /proc/sys/vm/dirty_expire_centisecs;
+echo "2000" > /proc/sys/vm/dirty_writeback_centisecs;
+echo "0" > /proc/sys/vm/laptop_mode;
+echo "10" > /proc/sys/fs/lease-break-time;
+echo "6144" > /proc/sys/vm/min_free_kbytes;
+echo "4" > /proc/sys/vm/min_free_order_shift;
+echo "0" > /proc/sys/vm/oom_kill_allocating_task;
+echo "3" > /proc/sys/vm/page-cluster;
+echo "0" > /proc/sys/vm/panic_on_oom;
+echo "10" > /proc/sys/vm/vfs_cache_pressure;
+ 

@@ -1,0 +1,32 @@
+#!/system/bin/sh 
+
+# .::The Great::Dash-M::.
+# by myaservip
+####Thanks To :
+#Chainfire
+#JynAlek
+#Rhievaldo
+#Pikachu01
+#Lenarox's
+#TWR Team- SpaceCaker-SniperKiller-Rhedification-Vishnu PV
+#Juwe11
+#Imbawind 
+#slaid480
+#darky
+#Every Dash User
+#zeppelinrox
+################################################
+ 
+ 
+# I/O Tweaks
+STL=`ls -d /sys/block/stl*`;
+BML=`ls -d /sys/block/bml*`;
+MMC=`ls -d /sys/block/mmc*`;
+
+for r in $STL $BML $MMC;
+do
+	echo 0 > $r/queue/rotational;
+	echo 1024 > $r/queue/nr_requests;
+	echo "0" > $r/queue/iostats;
+	echo "1" > $r/queue/rq_affinity;
+done;

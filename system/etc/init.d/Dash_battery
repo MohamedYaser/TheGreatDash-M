@@ -1,0 +1,24 @@
+#!/system/bin/sh 
+
+# .::The Great::Dash-M::.
+# by myaservip
+####Thanks To :
+#Chainfire
+#JynAlek
+#Rhievaldo
+#Pikachu01
+#Lenarox's
+#TWR Team- SpaceCaker-SniperKiller-Rhedification-Vishnu PV
+#Juwe11
+#Imbawind 
+#slaid480
+#darky
+#Every Dash User
+#zeppelinrox
+################################################
+
+ 
+##BatteryTweeks
+
+echo "500" > /proc/sys/vm/dirty_expire_centisecs;
+echo "1000" > /proc/sys/vm/dirty_writeback_centisecs;

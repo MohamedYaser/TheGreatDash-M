@@ -1,0 +1,24 @@
+#!/system/bin/sh 
+
+# .::The Great::Dash-M::.
+# by myaservip
+####Thanks To :
+#Chainfire
+#JynAlek
+#Rhievaldo
+#Pikachu01
+#Lenarox's
+#TWR Team- SpaceCaker-SniperKiller-Rhedification-Vishnu PV
+#Juwe11
+#Imbawind 
+#slaid480
+#darky
+#Every Dash User
+#zeppelinrox
+################################################
+ 
+# Smoothness Tweaks
+echo "NO_GENTLE_FAIR_SLEEPERS" > /sys/kernel/debug/sched_features;
+echo "NO_NEW_FAIR_SLEEPERS" > /sys/kernel/debug/sched_features;
+echo "NO_NORMALIZED_SLEEPER" > /sys/kernel/debug/sched_features;
+
